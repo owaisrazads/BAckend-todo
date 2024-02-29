@@ -6,7 +6,7 @@ const port = 3000
 //middleware
 app.use(express.json());
 
-
+// let empty array
 const arr = [];
 
 app.get('/', (req, res) => {
